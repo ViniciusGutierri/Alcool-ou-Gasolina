@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #22272e;
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container {
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 14px;
+}
+
+.logo {
+    max-width: 227px;
+}
+
+.title {
+    text-align: center;
+    color: #FFF;
+    letter-spacing: 2px;
+    margin: 24px 0;
+}
+
+.form label {
+    color: #FFF;
+    font-size: 20px;
+}
+.input {
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 14px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.input:focus {
+    outline: 0;
+}
+
+.btn {
+    width: 100%;
+    height: 48px;
+    background-color: #119CEA;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.result {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    padding: 20px 28px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    transition: all 0.3s ease 0s;
+}
+.hide {
+    display: none;
+}
+.result span {
+    margin-bottom: 12px;
+}
+.result:hover {
+    transform: scale(1.03);
+}
+#txt__result {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.info {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+.info__img {
+    width: 66px;
+    height: 66px;
+}
+.tooltip {
+    color: #FFF;
+    background-color: rgb(15, 15, 15);
+    padding: 10px 8px;
+    border-radius: 6px;
+    position: relative;
+    bottom: 28px;
+    display: none;
+}
+.info:hover .tooltip {
+    display: inline;
+}
+
+
+
+.sobre {
+    max-width: 620px;
+    background-color: #242424;
+    padding: 24px 14px;
+    border: 1px solid #303030;
+    border-radius: 8px;
+}
+.sobre p {
+    color: #FFF;
+    margin-bottom: 8px;
+    line-height: 150%;
+}
+.btn__voltar {
+    background-color: #119CEA;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 24px;
+    border-radius: 6px;
+}
